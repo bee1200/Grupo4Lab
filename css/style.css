@@ -369,7 +369,7 @@ table {
 	right:0.5em;
 	bottom:0.5em;
 	left:0.5em;
-	background: linear-gradient(#E04343 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#E04343 40%,#E04343 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#E04343 80%);
+	background: linear-gradient(#304F30 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#304F30 40%,#304F30 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#304F30 80%);
 	content:'';
 }
 .menu-button:hover {
@@ -424,7 +424,7 @@ table {
 	transform:translate3d(0,0,0);
 	-webkit-transition-delay:0s;
 	transition-delay:0s;
-	border-bottom: 1px solid #E04343;
+	border-bottom: 1px solid #304F30;
 }
 .show-menu .icon-list a {
 	opacity:1;
@@ -453,7 +453,7 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/Portada.png') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
@@ -476,14 +476,14 @@ table {
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #E04343;
+	color: #000000;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
 }
 .hero p {
 	letter-spacing:1px;
-	color:#fff;
+	color:#000000;
 	font-size: 15px;
 }
 /* Boucing Arrow Animation */
@@ -579,7 +579,7 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #E04343;
+	background: #304F30;
 }
 
 .color-bg a {
@@ -597,7 +597,7 @@ h1.arrow span {
 }
 .color-bg .weight-outline-btn:hover {
   background: #FFF;
-  color: #E04343;
+  color: #304F30;
   border-color: rgba(0, 0, 0, 0);
 }
 .about-text {
