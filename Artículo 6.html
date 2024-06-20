@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Website Title -->
-    <title>Componentes</title>
+    <title>Avance 6</title>
     <!-- Bootstrap -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font-Awesome -->
@@ -21,7 +21,7 @@
 	<!-- Animations -->
     <link href="css/animate.css" rel="stylesheet">
 	<!-- Custom Favicon -->
-	<link href="img/ICONO.jpg" rel="shortcut icon" type="image/x-icon" /> 
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -58,8 +58,36 @@
 			    <button class="menu-button" id="open-button"></button><!-- menu button -->
               </div><!--/row-->
             </div><!--/container-->
-	
-
+		  <!-- Header Image -->
+          <section class="hero" id="hero">
+            <div class="container">
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row">
+                <div class="col-md-8 col-md-offset-1 inner">
+                  <h1 class="animated fadeInDown">
+                    <span style="color:#AABA48;">LIFE</span><br/>
+                    <span><span style="color:#304F30">BOX</span></span>
+                  </h1><!-- Title -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Grupo 4, Laboratorio 2</span></h3><!-- Text Rotator -->
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p>SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div>
+            </div>
+          </section>
 		  <!-- Header Image End -->
         </header>
 		<!-- ==========================
@@ -67,116 +95,36 @@
         =========================== -->
 
 
-         <!-- TEXT SECTION -->
-
-        <section class="intro text-center section-padding color-bg" id="about">
+		<div class="container-fluid">
+		    <!-- About 1 -->
+			<div class="row color-bg">
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
+				</div>
+				<div class="col-md-6 about-text">
+					<h6> Avance 6: 6 de Junio </h6><!-- headline-->
+					<p>Es esta clase, avanzamos con la instalación del sistema de riego con sensor de humedad.</p>
+        </div>
+			
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
           <div class="container">
-		    <!-- WELCOME TEXT -->
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow"> ¿Qué <span>componentes</span> utilizamos?</h1><!-- Headline -->
-				<!-- about / welcome text -->
-                <p>Nuestro mini invernadero Arduino está equipado con:</p>
-                <P>Sensor de Humedad YL-69 : Permite detectar y controlar el porcentaje de agua del aire o de cualquier material. Arduino ESP32: Es una solución WIFI/Bluetooth toda en uno, permite la conexión la app. Bomba sumergible de Agua: Diseñada para ser usada en proyectos pequeños como sistemas de riego automático. Fuente de poder (12v): Se utilizan principalmente en circuitos de iluminación, enchufes y electrodomésticos. Puentes Macho - Hembra: Se usará tanto una tira de LEDS para el aro superior como en el plato inferior. Módulo relay de un canal: Dispositivo electromagnético que funciona como un interruptor controlado por un circuito eléctrico. Pantalla LCD I2C: Permite manejar tu pantalla LCD de una manera bastante fácil. Protoboard (400 puntos) : Para las conexiones necesaria.</p>
-              </div>
-            </div>
           </div>
         </section>
 
-        <!-- TEXT ENDEND-->
-        
-
-
-            <!-- ==========================
-        IMAGE SECTION
-    =========================== -->
-        <section class="swag text-center" id="portfolio">
-          <div class="container">
-  				 
-          <!-- ITEM 1 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/Sensor de Humedad YL-69.webp" data-lightbox="roadtrip" title="Project One - Lorem Ipsum"><img  src="img/Sensor de humedad.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!--  ITEM END -->
-  	
-  	    <!-- ITEM 2 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/Arduino ESP32.jpeg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img src="img/ARDUINO ESP32.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!--  ITEM END -->
-
-         <!-- ITEM 3 -->
-         <div class="col-md-3 col-sm-6">
-            <div class="overlay-effect effects clearfix">
-                <div class="img">
-                    <a href="img/Bomba sumergible de Agua.webp" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img src="img/bomba de agua.jpg" alt="Portfolio Item"></a>
-                </div>
-            </div>
-        </div>
-        <!--  ITEM END -->
-
-
-         <!-- ITEM 4 -->
-         <div class="col-md-3 col-sm-6">
-            <div class="overlay-effect effects clearfix">
-                <div class="img">
-                    <a href="img/modulo-i2c-800x675.jpg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img src="img/modulo-i2c-800x675.jpg" alt="Portfolio Item"></a>
-                </div>
-            </div>
-        </div>
-        <!--  ITEM END -->
-
-
-        <!-- ITEM 5 -->
-        <div class="col-md-3 col-sm-6">
-            <div class="overlay-effect effects clearfix">
-                <div class="img">
-                    <a href="img/modulo-i2c-800x675.jpg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img src="img/modulo-i2c-800x675.jpg" alt="Portfolio Item"></a>
-                </div>
-            </div>
-        </div>
-        <!--  ITEM END -->
-
-
-        <!-- ITEM 6 -->
-        <div class="col-md-3 col-sm-6">
-            <div class="overlay-effect effects clearfix">
-                <div class="img">
-                    <a href="img/modulo-i2c-800x675.jpg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img src="img/modulo-i2c-800x675.jpg" alt="Portfolio Item"></a>
-                </div>
-            </div>
-        </div>
-        <!--  ITEM END -->
-
-
-        <!-- ITEM 7 -->
-        <div class="col-md-3 col-sm-6">
-            <div class="overlay-effect effects clearfix">
-                <div class="img">
-                    <a href="img/modulo-i2c-800x675.jpg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img src="img/modulo-i2c-800x675.jpg" alt="Portfolio Item"></a>
-                </div>
-            </div>
-        </div>
-        <!--  ITEM END -->
-			
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
 		
-        <div class="container">
-          <div class="row row-offset-0">
-
 		
 	
-			
 	
-
 		
+	
 		
 		<!-- ==========================
         FOOTER SECTION
